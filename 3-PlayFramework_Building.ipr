@@ -8,10 +8,13 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/3-PlayFramework_Building.iml" filepath="$PROJECT_DIR$/3-PlayFramework_Building.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_PlayFramework_Building.iml" filepath="$PROJECT_DIR$/3_PlayFramework_Building.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/tmp/classes" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

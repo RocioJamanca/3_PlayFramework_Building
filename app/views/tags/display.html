@@ -25,6 +25,19 @@
 #{/if}
 </div>
 
+
+<h2 class="post-title">
+    <a href="@{Application.show(post.id)}">${_post.title}</a>
+</h2>
+
+<div id="title">
+    <span class="about">About this blog</span>
+    <h1><a href="@{Application.index()}">${blogTitle}</a></h1>
+    <h2>${blogBaseline}</h2>
+</div>
+
+
+
 #{if _as == 'full'}
 <div class="comments">
     <h3>
@@ -46,6 +59,8 @@
             </div>
         </div>
     #{/list}
+
+
 
 </div>
 #{/if}
